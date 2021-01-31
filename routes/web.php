@@ -18,4 +18,3 @@ Route::get('/', function () {
 });
 Route::get('/upload', 'SalesController@index');
 Route::post('/upload', 'SalesController@upload');
-Route::get('/store-data', 'SalesController@store');
